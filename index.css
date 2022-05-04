@@ -1,0 +1,66 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  color: #111;
+}
+nav ul li:hover {
+  list-style-type: none;
+  background-color: #111;
+  text-decoration: none;
+  color: #111;
+}
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  float: right;
+  color: #f2f2f2;
+  padding: 7px;
+}
+nav ul li .btn {
+  color: #f2f2f2;
+}
+
+main {
+  width: 1380px;
+  height: 776px;
+  margin: 0px;
+  background-image: url("https://img.freepik.com/fotos-gratis/mala-rosa-com-chapeu-e-globo-nele_23-2148169893.jpg?t=st=1648245010~exp=1648245610~hmac=3760602802ca6763a09fdc7cb29d69a4e3450a4ed199362d7a05aac32bf697dc&w=1380");
+}
+main h1 {
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+.cabecalho {
+  background-color: #09532eb2;
+  height: 50px;
+}
+
+.input_busca {
+  padding: 6px;
+}
+
+/*# sourceMappingURL=index.css.map */
